@@ -31,6 +31,8 @@ WHITELIST_LIBS = [
     /libutil\.so/,
     /linux-vdso.+/,
     /linux-gate\.so/,
+    /libopensearchknn_faiss\.so/,
+    /libopensearchknn_nmslib\.so/,
   ].freeze
 
 ARCH_WHITELIST_LIBS = [

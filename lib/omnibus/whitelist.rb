@@ -33,6 +33,7 @@ WHITELIST_LIBS = [
     /linux-gate\.so/,
     /libopensearchknn_faiss\.so/,
     /libopensearchknn_nmslib\.so/,
+    /libgomp\.so/,
   ].freeze
 
 ARCH_WHITELIST_LIBS = [
